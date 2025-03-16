@@ -2,9 +2,11 @@
 
 isExistApp="$(pgrep httpd)"
 if [[ -n $isExistApp ]]; then
-sudo systemctll stop httpd.service  # Intentional error here
+sudo systemctl stop httpd.service
 fi
 isExistApp="$(pgrep tomcat)"
 if [[ -n $isExistApp ]]; then
-sudo systemctll stop tomcat.service  # Intentional error here
+sudo systemctl stop tomcat.service
 fi
+
+exit 1 # forcing failure here
