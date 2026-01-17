@@ -1,5 +1,7 @@
 # My Journey Through the 7-Day DevOps Challenge (NextWork)
 
+![Architecture Diagram](cicd-expanded.png)
+
 I recently completed the 7-Day DevOps Challenge from NextWork, where I built a complete CI/CD pipeline using AWS services. This hands-on experience helped me develop practical DevOps skills and understand how these powerful tools work together in a real production environment.
 
 ## Day 1: Setting Up a Web App in the Cloud
@@ -136,4 +138,4 @@ If you're looking to enhance your DevOps skills, I highly recommend finding a ha
 
 ---
 
-*Original article published on Medium by Danielle Hope*
+_Original article published on Medium by Danielle Hope_
